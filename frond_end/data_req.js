@@ -1,7 +1,7 @@
 /*
 import { update } from "../js/data.js";
  export const fetch_data=()=>{
-    fetch('http://192.168.156.102:8080/data').then(
+    fetch('https://mcetreport-production.up.railway.app/:8080/data').then(
         response=>response.json()
     ).then(
         data=>{if(data){
