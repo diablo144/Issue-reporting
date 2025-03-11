@@ -3,7 +3,7 @@ import { update } from "../js/data.js";
 console.log("hi");
 console.log(io);
 export const sent_req=(data)=>{
-    fetch('http://192.168.227.102/:8080',{
+    fetch('https://mcetreport-production.up.railway.app/:8080',{
         method:'post',
         headers:{
             'content-type':'application/json'
