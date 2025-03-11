@@ -2,7 +2,7 @@
 import {description_list,update} from './data.js';
 import { sent_req } from '../frond_end/req.js';
 
-const socket=io("http://192.168.227.102:8080");
+const socket=io("https://mcetreport-production.up.railway.app:8080");
 
 let selectedLocation = null;
 const map = L.map('map').setView([10.654450394704826, -282.96283721923834], 13); // Fixed invalid longitude
