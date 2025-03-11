@@ -22,7 +22,7 @@ let data=[
       value: "wfw",
       location: { lat: 10.663138421180006, lng: -282.971420288086 }
     }]
-const port= 8080;
+const port= process.env.PORT || 8080;
 
 app.post('/',(req,res)=>{
  
