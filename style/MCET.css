@@ -1,3 +1,9 @@
+@media (max-width:500px){
+  .phone{
+    display:none;
+  }
+};
+
 body {
   font-family: Arial, sans-serif;
   background-color: wheat;
